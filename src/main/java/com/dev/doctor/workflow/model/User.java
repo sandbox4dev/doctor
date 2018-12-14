@@ -9,6 +9,6 @@ public interface User {
     int getId();
     UUID getUUID();
     boolean isLocked();
-    Date getDatelocked();
+    Date getDateLocked();
     Role getUserRole();
 }
